@@ -30,4 +30,4 @@ repos:
     args:
       - "-c"
       - "pyproject.toml"
-    additional_dependecies: ["toml==0.10.2"]
+    additional_dependencies: ["toml==0.10.2"]
