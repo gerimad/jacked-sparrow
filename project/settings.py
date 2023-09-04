@@ -71,6 +71,13 @@ TEMPLATES = [
     },
 ]
 
+if DEBUG:
+    TEMPLATES[0]["APP_DIRS"] = False
+    TEMPLATES[0]["OPTIONS"]["loaders"] = [
+        "django.template.loaders.filesystem.Loader",
+        "django.template.loaders.app_directories.Loader",
+    ]
+
 WSGI_APPLICATION = "project.wsgi.application"
 
 
