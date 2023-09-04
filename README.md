@@ -6,8 +6,9 @@ Personal Lifting Coach for the Strength Enthusiasts
 * [ ] Django
 * [ ] configuration via django-environ
 * [ ] Configure web server
-* [ ] testing
-* [ ] Continuous Integration / pre-commit
+* [ ] testing / coverage
+* [ ] Continuous Integration
+* [x] pre-commit
 * [ ] Django modeling
 * [ ] Heroku
 
