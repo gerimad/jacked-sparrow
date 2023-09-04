@@ -2,8 +2,8 @@
 
 Personal Lifting Coach for the Strength Enthusiasts
 
-* [ ] dependencies
-* [ ] Django
+* [x] dependencies
+* [x] Django
 * [ ] configuration via django-environ
 * [ ] Configure web server
 * [ ] testing / coverage
